@@ -11,7 +11,21 @@
   border-right: 1px solid #eeeeee;
 }
 .tab-head h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
-    padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  padding: 20px;
+}
+.left-content {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.left-content::-webkit-scrollbar {
+  width: 3px;
+  height: 20px;
+}
+.left-content::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 2px;
+  height: 10px !important;
 }
