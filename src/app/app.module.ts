@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { TabComponent } from './component/tab/tab.component';
 import { SearchbarComponent } from './component/searchbar/searchbar.component';
 import { ChatComponent } from './pages/chat/chat.component';
+import { BodyTabComponent } from './component/body-tab/body-tab.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ChatComponent } from './pages/chat/chat.component';
     HomeComponent,
     TabComponent,
     ChatComponent,
-    SearchbarComponent
+    SearchbarComponent,
+    BodyTabComponent,
   ],
   imports: [
     BrowserModule,

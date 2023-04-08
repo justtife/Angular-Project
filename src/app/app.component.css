@@ -9,7 +9,7 @@
   height: 40px;
   display: flex;
   align-items: center;
-  background-color: #eeeeee;
+  background-color: #f9f9f9;
 }
 .topnav img {
   /* position: absolute; */
@@ -22,7 +22,6 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
   font-weight: lighter;
-  /* margin-left: 10px; */
 }
 .left-menu {
   position: absolute;
@@ -76,7 +75,7 @@
   position: absolute;
   width: 50px;
   height: calc(100% - 40px);
-  background-color: #eeeeee;
+  background-color: #f9f9f9;
 }
 .left-bar ul {
   list-style-type: none;
@@ -107,6 +106,8 @@
   left: 50px;
   border-top-left-radius: 10px;
   width: calc(100% - 50px);
+  border-top: 1px solid rgba(197, 197, 197,0.4);
+  border-left: 1px solid rgba(197, 197, 197,0.4);
   background-color: #fff;
   height: calc(100% - 40px);
   overflow: hidden;
