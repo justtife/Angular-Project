@@ -21,6 +21,7 @@
 .topnav span {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
+  font-weight: lighter;
   /* margin-left: 10px; */
 }
 .left-menu {
@@ -41,7 +42,7 @@
   background-color: #000000;
 }
 .left-menu ul li:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 .left-menu ul li:nth-child(2) {
   width: 10px;
@@ -79,12 +80,19 @@
 }
 .left-bar ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .left-bar li {
   text-align: center;
-  padding: 10px 0;
+  margin: 10px 0;
+}
+.left-bar li:last-child {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 2px dashed #333;
 }
 .left-bar li:hover {
   background-color: #a6a6a6;
