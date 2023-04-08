@@ -1,0 +1,15 @@
+<div class="chat_container">
+  <div class="left-panel">
+    <div class="tab-head">
+      <h3>
+        {{ text }}
+      </h3>
+      <ng-content select=".options"></ng-content>
+    </div>
+    <ng-content select=".search"></ng-content>
+    <ng-content select=".tab"></ng-content>
+  </div>
+  <div class="right-panel">
+    <ng-content class=".right"></ng-content>
+  </div>
+</div>
